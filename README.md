@@ -4,55 +4,43 @@ Using data to understanding student performance in schools considering factors s
 ![performance2](https://github.com/user-attachments/assets/a02b2798-0b7d-481f-8261-c196d5217e5e)
 
 ## 📌 Overview
-This project explores customer patterns from a 2,000-row dataset sourced from Kaggle, representing customer demographic and financial behavior for Costco Wholesale in 2022. Using **Excel only**, the analysis uncovers how age groups, gender, profession, work experience, and family size contribute to annual income and spending behavior.
-
-The goal is to translate raw data into meaningful insights that support business decisions such as customer segmentation, loyalty program design, product bundling, and targeted marketing.
-
+As I explored the dataset using only Excel, patterns slowly began to reveal themselves: students who excelled not because they were “naturally gifted,” but because of support systems, preparation, nutrition, or parental education. Some succeeded quietly. Some struggled despite effort. And some soared once they completed the test preparation course.
+This report tells that story: It shows what truly influences the performance of Harvard University students—not just grades, but human factors like gender, race, family background, and access to learning opportunities.
+The goal of this analysis is to uncover evidence-based insights that any school—elite or not—can use to help students thrive.
 ---
 
 ## 📊 Key Features of the Analysis
-- **Feature Engineering:** Created Age Groups, Spending Score Categories, WorkExperience2, and FamilySize2 using Excel IFS and CONCAT functions.
-- **Excel Techniques Used:** Pivot tables, slicers, ranking functions, conditional formatting, and comparative tables.
-- **Business-Focused Insights:** Identified high-income age groups, dominant professions, and lifestyle patterns across generations.
+- **Feature Engineering:** Created Total and Status columns. 
+- **Excel Techniques Used:** Pivot tables, slicers, SUM and IF statement and Pivot table Grouping.
+- **Business-Focused Insights:** Identified strongest predictor of successful student performance and the importance of nutrition for students.
 - **No external tools used** — the entire analysis was conducted using Excel to demonstrate strong fundamentals.
 
 ---
 
 ## 🔍 Summary of Findings
-### **Top Earning Generations**
-- **Silent Generation** leads with the highest total annual income.
-- Millennials and Gen Z follow, driven by their high population count.
-
-### **Family Size Trends**
-- Most generations have **2-member households**, except:
-  - **Gen Z:** 3 members  
-  - **Silent:** 4 members  
-
-### **Profession Patterns**
-Across all generations, the top income-driving professions remained:
-- Artist  
-- Healthcare  
-- Entertainment  
-
-### **Gender Insights**
-Females consistently represent **56%–65%** of each age group, driving a significant portion of total income.
+- Parental education is the strongest predictor of success.
+- Test preparation improves scores dramatically (225 vs. 199).
+- Females outperform males in reading and writing.
+- Race Groups E & D excel; Group A needs intervention.
+- Standard lunch students perform higher than free/reduced lunch students.
 
 ---
 
-## 🧠 What This Project Demonstrates
-- Ability to perform full analytical workflows using **only Excel**
-- Clear communication of insights for **both technical and non-technical audiences**
-- Strong storytelling and data interpretation for business-oriented analysis
-- Portfolio-ready structure for showcasing analytical depth
+## 🧠 Recommendations
+- Expand test prep access.
+- Improve math teaching resources.
+- Build equity support for lower parental-education groups.
+- Strengthen nutrition programs.
+- Establish enrichment for high performers.
 
 ---
 
-## Read full article on Medium: [Uncovering Customer Patterns at Costco Wholesale: An Excel-Driven Analysis of Demographics, Income & Spending](https://medium.com/@dorcasoyibo2000/uncovering-customer-patterns-at-costco-wholesale-an-excel-driven-analysis-of-demographics-income-0211a5b1b89b?postPublishedType=repub) 
+## Read full article on Medium: [Beyond the Grades: An Excel-Driven Story of Harvard University Students’ Performance](https://medium.com/@dorcasoyibo2000/beyond-the-grades-an-excel-driven-story-of-harvard-university-students-performance-b1fc5f6aa0fa)
 
 ---
 
 ## 🙌 Author
 **Oyibo Dorcas**  
-Data Analyst | Excel | SQL | Tableau  
-Passionate about customer insights, business analytics, and data storytelling.
+Data Analyst 
+Passionate about student performance, business analytics, and data storytelling.
 
